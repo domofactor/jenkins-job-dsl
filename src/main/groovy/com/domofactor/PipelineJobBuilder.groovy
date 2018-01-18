@@ -9,7 +9,7 @@ import javaposse.jobdsl.dsl.Job
  * JobBuilder Class for creating a standardized job
  */
 @Builder(builderStrategy = SimpleStrategy, prefix = '')
-class PipelineJob {
+class PipelineJobBuilder {
   Boolean disabled = false
   String name = 'somejob'
   String description = 'some description'
